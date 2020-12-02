@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #363940;
+}
+
+header {
+    background-color: #202225;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 1.5rem 1rem 1rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 1.5rem 0rem .3rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+a, li {
+    color: #FFFFFF;
+}
+
+.vertical, .participantes, main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+
+.vertical li, .botao, .borda li {
+    border: .1rem solid black;
+    margin: .5rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: .5rem;
+    align-items: stretch;
+    background-color: #006D96;
+    
+}
+
+.participantes li {
+    border: .1rem solid black;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #006D96;
+}
+
+.numero {
+    justify-content: center;
+    align-self: center;
+}
+
+.numero li input {
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    margin: .5rem 1rem;
+    text-align: center;
+}
+
+.borda li {
+    flex-grow: 1;
+}
+
+input {
+    margin: 1rem 1rem;
+}
+
+.numero input {
+    font-size: 1rem;
+    margin: .5rem 2rem .5rem;
+}
+
+.mais, .botao {
+    align-self: center;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    margin-right: 1rem;
+}
+
+.procurar {
+    margin: .5rem;
+    width: 4rem;
+    align-self: center;
+}
+
+input[type="button"] {
+    background-color: #006D96;
+    color: #FFFFFF;
+}
